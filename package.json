@@ -1,0 +1,22 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "watch": {
+    "dev": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node server.js",
+    "test": "node tests.js",
+    "watch": "npm-watch dev"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "npm-watch": "^0.6.0",
+    "winston": "^3.2.1"
+  }
+}
